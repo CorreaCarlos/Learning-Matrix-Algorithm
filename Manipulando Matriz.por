@@ -1,41 +1,8 @@
 programa
 {
-	/*Aluno: Carlos Eduardo Corrêa
-	 * Sua atividade será elaborar um algoritmo no Portugol, que permita aos atendentes realizarem a gestão de reservas de passagens para a companhia Sweet Flight. 
-	 * Este algoritmo deve solicitar ao usuário o número de filas e colunas da totalidade de poltronas disponíveis. 
-	Para armazenamento dos dados, utilize matriz, de modo que cada uma destas posições representam um local disponível para passageiros. 
-	Para facilitar o acesso e lançamento dos dados pelo atendente da companhia, elabore um menu de opções, conforme descrito a seguir:
-
-	Opção 1: Cadastrar / editar o total de poltronas da aeronave.
-	Opção 2: Realizar reserva de poltrona.
-	Opção 3: Visualizar poltronas disponíveis.
-	Opção 4: Visualizar poltronas reservadas.
-	Opção 5: Consultar passageiro pelo nome.
-	Opção 6: Visualizar o total de poltronas reservadas e poltronas disponíveis.
-	Opção 7: Sair do sistema.
-
-	Nossa matriz deve ser do tamanho máximo 30x10 (linhas x colunas) para este algoritmo, devendo o usuário não poder ultrapassar seu tamanho. Para as ações de cada opção, considere as seguintes diretrizes:
-
-	Na opção 1, o atendente deve informar o quantitativo de “filas” e “colunas” (poltronas da aeronave disponíveis). A totalidade das filas e colunas, não deverá ser superior ao tamanho máximo de nossa matriz.
-	Nesta opção, caso a aeronave já tenha sido configurada com uma quantidade de poltronas, o usuário poderá somente realizar a edição, não sendo permitido que haja diminuição na capacidade de filas e colunas, 
-	mas somente aumento de lugares. Solicitamos que caso já existam reservas feitas, não sejam perdidos nenhuma informação dos passageiros no momento da edição da capacidade da aeronave. 
-
-	Na opção 2, o atendente deve informar o número da fila e o número da coluna, caso a mesma esteja disponível, permitir que se possa cadastrar o nome do passageiro e sua idade. 
-	Caso a poltrona não esteja disponível, deverá apresentar a mensagem “Poltrona já está reservada! Por favor, escolha outra.”.
-
-	Na opção 3, o sistema deverá apresentar uma listagem  com todas as poltronas disponíveis para reserva. Nesta tela, o desenvolvedor poderá escolher a melhor forma de exibição das informações.
-
-	Na opção 4, o sistema deverá apresentar uma listagem com todos os reservas, exibindo número da fila, número da coluna, nome  e idade do passageiro respectivamente de uma das reservas feitas.
-
-	Na opção 5, o atendente deve informar o nome do passageiro para que o algoritmo busque e exiba o local da fila e coluna que o passageiro reservou. Caso o nome não seja localizado, 
-	deverá apresentar a mensagem “Não há reservas realizadas para este passageiro!”.
-
-	Na opção 6, o sistema deverá exibir o quantitativo total de poltronas da aeronave, o quantitativo disponível para reservas, o quantitativo de reservas feitas e o percentual de cada uma delas. 
-	Exibir logo abaixo, de forma separada as informações sobre os passageiros, tais como: quantitativo de crianças (0 ~ 12 anos), adolescentes (13 ~ 17 anos), adultos (18 ~ 59 anos) e idoso (a partir de 60 anos). 
-
-	Na opção 7, o atendente deverá encerrar o algoritmo.
-
-	Obs: A atividade deverá ser entregue na plataforma AVA, com extensão do Portugol Studio (.por), conforme prazo estabelecido. Plágios será descontado nota do estudante.
+	/*
+	 * Aluno: Carlos Eduardo Corrêa
+	 * Sua atividade será elaborar um algoritmo no Portugol, que permita aos atendentes realizarem a gestão de reservas de passagens. 
 	*/
 	inclua biblioteca Util --> U
 	inclua biblioteca Matematica --> M
@@ -463,8 +430,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9939; 
- * @DOBRAMENTO-CODIGO = [47, 53, 124, 182, 196, 268, 341, 379, 431];
+ * @POSICAO-CURSOR = 177; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
